@@ -6,8 +6,6 @@
 #include <fcntl.h>  
 #include <termios.h> 
 
-//g++ -g /Users/louisdeng/Desktop/tmp/mumt620.cpp -o /Users/louisdeng/Desktop/tmp/mumt620.o -Istk/include/ -Lstk/src/ -D__MACOSX_CORE__ -lstk -lpthread -framework CoreAudio -framework CoreMIDI -framework CoreFoundation
-
 #include <RtAudio.h>
 #include <Delay.h>
 #include <Echo.h>
