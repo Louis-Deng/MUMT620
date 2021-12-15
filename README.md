@@ -10,6 +10,8 @@ Software codes only...
 
 circuit diagram to be added...
 
+
+
 for macOS, you need to BUILD using this command line in the directory holding mumt620.cpp
 
 g++ -g ~/mumt620.cpp -o ~/mumt620.o -Istk/include/ -Lstk/src/ -D__MACOSX_CORE__ -lstk -lpthread -framework CoreAudio -framework CoreMIDI -framework CoreFoundation
@@ -19,6 +21,8 @@ supposed your directory contains:
 mumt620.cpp
 
 stk (folder)
+
+
 
 Otherwise, run the executable: 
 
